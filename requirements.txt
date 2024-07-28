@@ -1,0 +1,9 @@
+obs-websocket-py
+schedule
+Flask-RESTful
+Flask
+obsws_python
+Adafruit_IO
+flask_cors
+streamlink 
+pytz

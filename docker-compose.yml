@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  live_server:
+    image: server_live_stream
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./SERVER:/SERVER/src
