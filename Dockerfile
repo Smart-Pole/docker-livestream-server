@@ -1,6 +1,6 @@
 FROM python:3.12
 
-# Cập nhật múi giờ hệ thống
+# update timezone
 RUN apt-get update && \
     apt-get install -y tzdata && \
     ln -sf /usr/share/zoneinfo/Asia/Ho_Chi_Minh /etc/localtime && \
