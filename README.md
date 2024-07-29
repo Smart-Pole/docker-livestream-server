@@ -25,7 +25,7 @@ To set up the Docker Livestream Server, follow these steps:
 3. Build the Docker image:
 
     ```bash
-    docker build -t livestream-server .
+    docker build -t server_live_stream .
     ```
 
 4. Run the Docker Compose:
