@@ -11,7 +11,7 @@ services:
     image: wernight/ngrok
     environment:
       - NGROK_AUTH_TOKEN=2eJMSev53DZMVJGYmUxICuUBUf3_2e3wsfEtNDRKQU4grHtiB 
-    command: http live_server:8000
+    command: http 8000
     ports:
       - "8000:8000"  # Optional: ngrok web interface for monitoring
 
